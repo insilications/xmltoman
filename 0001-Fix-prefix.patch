@@ -1,0 +1,22 @@
+From 72afda0394cf73ff2a521c29219d0617e9cb000d Mon Sep 17 00:00:00 2001
+From: Francisco Boni <boboniboni@gmail.com>
+Date: Sat, 24 Jul 2021 13:00:20 -0300
+Subject: [PATCH] Fix prefix
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 2673885..b3906a9 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+-prefix=/usr/local
++prefix=/usr
+ PACKAGE=xmltoman
+ VERSION=0.6
+ DISTNAME=$(PACKAGE)-$(VERSION)
+-- 
+2.32.0
+
